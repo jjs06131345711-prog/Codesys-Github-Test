@@ -10,4 +10,5 @@ j:=j+1;
 test:=i+j;
 
 //FK趙公測試
+//20261019翔帥修改
 END_PROGRAM
