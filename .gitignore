@@ -1,0 +1,9 @@
+.cts-docs/
+*.~u
+*.~u~
+*.opt
+*.precompilecache
+*.compileinfo
+*.compileinfo~
+*.bootinfo
+*.bootinfo_guids
