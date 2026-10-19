@@ -207,6 +207,34 @@
             <Single Name="QualifiedOnly" Type="bool">False</Single>
             <Single Name="LinkAllContent" Type="bool">False</Single>
           </Single>
+          <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+            <Single Name="DefaultResolution" Type="string">SM3_Drive_ETC, 4.16.0.0 (CODESYS)</Single>
+            <Single Name="Optional" Type="bool">False</Single>
+            <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
+            <Single Name="PlaceholderName" Type="string">SM3_Drive_ETC</Single>
+            <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+            <Single Name="Id" Type="long">2186782486</Single>
+            <Single Name="Namespace" Type="string">SM3_Drive_ETC</Single>
+            <Single Name="SystemLibrary" Type="bool">True</Single>
+            <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+            <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+            <Single Name="QualifiedOnly" Type="bool">False</Single>
+            <Single Name="LinkAllContent" Type="bool">False</Single>
+          </Single>
+          <Single Type="{4723ebe7-5bfc-43c6-be6b-5097002ef6b4}" Method="IArchivable">
+            <Single Name="DefaultResolution" Type="string">SM3_Drive_ETC_Delta_ASDA_B3, 4.16.0.0 (CODESYS)</Single>
+            <Single Name="Optional" Type="bool">False</Single>
+            <Array Name="Params" Type="{e38db981-1fbe-4d68-b5b0-d55ca6086daa}" />
+            <Single Name="PlaceholderName" Type="string">SM3_Drive_ETC_Delta_ASDA_B3</Single>
+            <Single Name="ResolverGuid" Type="System.Guid">b303f5ce-75ff-4668-a777-7da8debb449c</Single>
+            <Single Name="Id" Type="long">354114077</Single>
+            <Single Name="Namespace" Type="string">SM3_Drive_ETC_Delta_ASDA_B3</Single>
+            <Single Name="SystemLibrary" Type="bool">True</Single>
+            <Single Name="HideWhenReferencedAsDependency" Type="bool">False</Single>
+            <Single Name="PublishSymbolsInContainer" Type="bool">False</Single>
+            <Single Name="QualifiedOnly" Type="bool">False</Single>
+            <Single Name="LinkAllContent" Type="bool">False</Single>
+          </Single>
         </List>
         <Dictionary Type="System.Collections.Hashtable" Name="PlaceholderRedirectionTable">
           <Entry>
@@ -295,6 +323,14 @@
             </Key>
             <Value>
               <Single Type="string">Plc Services, 3.5.8.0 (System)</Single>
+            </Value>
+          </Entry>
+          <Entry>
+            <Key>
+              <Single Type="string">SM3_Drive_ETC_Delta_ASDA_B3</Single>
+            </Key>
+            <Value>
+              <Single Type="string">SM3_Drive_ETC_Delta_ASDA_B3, 4.16.0.0 (CODESYS)</Single>
             </Value>
           </Entry>
           <Entry>

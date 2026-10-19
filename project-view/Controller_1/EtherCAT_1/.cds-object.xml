@@ -167,7 +167,9 @@
               <Single Name="Adapters" Type="{1da2f14a-1c63-4268-9171-3b6869b8ccd6}" Method="IArchivable">
                 <List Name="Adapters" Type="System.Collections.ArrayList">
                   <Single Type="{3f828f0b-c67b-430a-8c93-1e9bc324df64}" Method="IArchivable">
-                    <List Name="Modules" Type="System.Collections.ArrayList" />
+                    <List Name="Modules" Type="System.Collections.ArrayList">
+                      <Single Type="System.Guid">5ccd4b55-1e7b-4788-8e04-3e7b2924822e</Single>
+                    </List>
                     <Single Name="MaxDevices" Type="int">1024</Single>
                   </Single>
                 </List>
