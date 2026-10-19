@@ -530,7 +530,7 @@
                   <Single Name="Identifier" Type="string">Id55104.Desc</Single>
                   <Single Name="Default" Type="string">Configure IP Address of the Controller on the EtherNet GLAN2 (IP).</Single>
                 </Single>
-                <Single Name="Value" Type="string">[192, 168, 1, 10]</Single>
+                <Single Name="Value" Type="string">[192,168,88,10]</Single>
                 <Single Name="Type" Type="string">ARRAY[0..3] OF BYTE</Single>
                 <Single Name="Default" Type="string">[192, 168, 1, 10]</Single>
                 <Single Name="Identifier" Type="string">55104</Single>
@@ -1455,7 +1455,7 @@
           <Single Type="System.Guid">40b404f9-e5dc-42c6-907f-c89f4a517386</Single>
         </Array>
         <Null Name="UserManagement" />
-        <Null Name="RightsManagement" />
+        <Single Name="RightsManagement" Type="string">&lt;DeviceRightsManagement /&gt;</Single>
         <Single Name="showParamsInDevDescOrder" Type="bool">False</Single>
         <Single Name="fixedInputAddress" Type="string" />
         <Single Name="fixedOutputAddress" Type="string" />

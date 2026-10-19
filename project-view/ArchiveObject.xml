@@ -43,10 +43,35 @@
               <Single Type="System.Guid">57729694-5fd9-462d-be9d-a8950d939532</Single>
             </List2>
           </Single>
+          <Single Type="{6484308e-303e-4a7f-aa33-705ce2151025}" Method="IArchivable">
+            <Single Name="DeviceId" Type="{b3c243df-eafa-4d13-9364-7aaa542c87d0}" Method="IArchivable">
+              <Single Name="Id" Type="string">1DD_0000608000030000_SM</Single>
+              <Single Name="Type" Type="int">65</Single>
+              <Single Name="Version" Type="string">4.16.0.0</Single>
+              <Single Name="ProductClass" Type="string">0003</Single>
+              <Single Name="ProductCode" Type="string">0x000024010000</Single>
+              <Single Name="DDFVersion" Type="string">0.030</Single>
+              <Null Name="ModuleId" />
+            </Single>
+            <Single Name="Annotation" Type="string">Delta ASDA-B3-E EtherCAT(CoE) Drive SM</Single>
+            <Single Name="InstanceGuid" Type="System.Guid">fcb982b2-3914-4fdc-b039-e16bf5672029</Single>
+            <Single Name="DisplayName" Type="string">Drive_1</Single>
+            <Single Name="ParentId" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+            <List2 Name="Ports">
+              <Single Type="System.Guid">a6cbf602-d5b2-4dcc-a5d8-20e29a73082c</Single>
+            </List2>
+          </Single>
         </List2>
         <List2 Name="BridgeArchives">
           <Single Type="{3a01f868-33cd-4bf7-ba7b-4466181f3607}" Method="IArchivable">
             <Single Name="InstanceGuid" Type="System.Guid">d97e376c-ffae-4cb3-981e-be4f1c593390</Single>
+          </Single>
+          <Single Type="{9ca2f1ea-ac2f-47a7-9990-fe60ed2091f3}" Method="IArchivable">
+            <Single Name="MasterAdapterGuid" Type="System.Guid">d97e376c-ffae-4cb3-981e-be4f1c593390</Single>
+            <List2 Name="StandaloneSlaveNodeGuid">
+              <Single Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+            </List2>
+            <Single Name="InstanceGuid" Type="System.Guid">5ccd4b55-1e7b-4788-8e04-3e7b2924822e</Single>
           </Single>
         </List2>
         <List2 Name="PortArchives">
@@ -98,6 +123,20 @@
             <Single Name="InstanceGuid" Type="System.Guid">57729694-5fd9-462d-be9d-a8950d939532</Single>
             <List2 Name="Bridges">
               <Single Type="System.Guid">d97e376c-ffae-4cb3-981e-be4f1c593390</Single>
+            </List2>
+          </Single>
+          <Single Type="{37f4a7fe-829b-4c94-a0e7-90a2addacd38}" Method="IArchivable">
+            <Single Name="PortId" Type="int">6</Single>
+            <Single Name="Type" Type="int">5</Single>
+            <Single Name="FieldbusType" Type="int">8</Single>
+            <Null Name="IPAddress" />
+            <Single Name="StationInfo" Type="string">1</Single>
+            <Single Name="StationSubInfo" Type="string">125k</Single>
+            <Single Name="FieldbusGuid" Type="System.Guid">60739606-4cb0-4912-b4fe-053e30bfd665</Single>
+            <Single Name="IsMaster" Type="bool">True</Single>
+            <Single Name="InstanceGuid" Type="System.Guid">a6cbf602-d5b2-4dcc-a5d8-20e29a73082c</Single>
+            <List2 Name="Bridges">
+              <Single Type="System.Guid">5ccd4b55-1e7b-4788-8e04-3e7b2924822e</Single>
             </List2>
           </Single>
         </List2>
