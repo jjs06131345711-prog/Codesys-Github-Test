@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">0d35c2e2-b8d0-452f-8e0d-07f2cfea1048</Single>
+        <Single Name="ParentGuid" Type="System.Guid">e655154d-9ffc-45a2-b24a-16a5e2c96fdb</Single>
+        <Single Name="Name" Type="string">网络配置</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">5f45bce9-c7b4-4b94-8482-763979304dcb</Single>
+        <Null Name="EmbeddedTypeGuids" />
+      </Single>
+      <Single Name="Object" Type="{5f45bce9-c7b4-4b94-8482-763979304dcb}" Method="IArchivable" />
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">e655154d-9ffc-45a2-b24a-16a5e2c96fdb</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Controller_1</Single>
+      </Array>
+      <Single Name="Index" Type="int">2</Single>
+    </Single>

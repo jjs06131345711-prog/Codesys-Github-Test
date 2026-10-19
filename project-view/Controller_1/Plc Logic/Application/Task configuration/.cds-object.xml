@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">43fdc72e-0b76-4035-8bd5-b6cd9ecb35c0</Single>
+        <Single Name="ParentGuid" Type="System.Guid">1613c692-d6d5-4718-ab49-047a176ca97f</Single>
+        <Single Name="Name" Type="string">Task configuration</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">ae1de277-a207-4a28-9efb-456c06bd52f3</Single>
+        <Null Name="EmbeddedTypeGuids" />
+      </Single>
+      <Single Name="Object" Type="{ae1de277-a207-4a28-9efb-456c06bd52f3}" Method="IArchivable">
+        <List Name="TaskConfigurationList" Type="{75fc8bb3-c744-4e99-b6eb-bb2796e19500}" />
+        <List Name="SystemEventList" Type="{7be1d5a4-d68c-4bc6-a7e5-e42a0ab42a09}" />
+        <Null Name="ExternalEventList" />
+        <Single Name="enum_guid" Type="System.Guid">dd76c96f-da37-595f-a73a-4267d01ec2ab</Single>
+        <Single Name="jitter_distribution_guid" Type="System.Guid">e8238d02-c9c3-54a4-be46-bbaa768ceabd</Single>
+        <Single Name="task_struct_guid" Type="System.Guid">ecc59f8a-80bd-582d-9cb8-b4c9b6cd5ffc</Single>
+        <Single Name="task_config_info_guid" Type="System.Guid">fa11ea6e-4a10-50f7-8364-9cf5d0a8dfeb</Single>
+        <Single Name="task_global_vars_guid" Type="System.Guid">cbb6de71-611f-5a83-bb6a-da50ed015ecd</Single>
+        <Single Name="setup_call_pou_guid" Type="System.Guid">4ad2a44e-569e-5759-a126-d826e2e74607</Single>
+        <Single Name="sys_setup_pou_guid" Type="System.Guid">22d6b95a-f504-5260-9b21-1fdde9b35f77</Single>
+        <Single Name="profiler_global_vars_guid" Type="System.Guid">a5611658-9e0a-5231-92aa-c05c2aa19a76</Single>
+        <Single Name="profiler_init_code_guid" Type="System.Guid">9583944d-89b3-590f-86be-26b61fa3c6e9</Single>
+        <Single Name="profiler_cycle_code_guid" Type="System.Guid">d2f8359c-b888-546c-87a6-e69ee791a6a7</Single>
+        <Single Name="profiler_fb_guid" Type="System.Guid">17529aee-30de-5e47-b57b-0bd3a75ea002</Single>
+        <Single Name="profiler_method_reset_guid" Type="System.Guid">3662e2cc-afc0-51af-b2aa-2d0066e40536</Single>
+        <Single Name="profiler_method_starttiming_guid" Type="System.Guid">32a3185f-ce89-5391-8459-3f979a400fbc</Single>
+        <Single Name="profiler_method_stoptiming_guid" Type="System.Guid">e274cef1-1894-5919-a168-e7103d6791fe</Single>
+        <Single Name="profiler_iectaskgetprofiling_guid" Type="System.Guid">395af87f-2578-5555-b587-aa9efc82a40c</Single>
+        <Null Name="alSysEventList" />
+        <Null Name="alTaskGroups" />
+        <Single Name="sysevents_global_vars_guid" Type="System.Guid">b410a0e6-5e50-5f96-8338-899432f87f06</Single>
+        <Single Name="sysevents_functionsblock_guid" Type="System.Guid">552bfbc2-c082-57fe-97dc-f60282844531</Single>
+        <Single Name="sysevents_fbinit_method_guid" Type="System.Guid">8d98d79c-2b77-5dd3-afeb-baa0099c8edd</Single>
+        <Single Name="sysevents_fbexit_method_guid" Type="System.Guid">2923f750-8f3a-5c47-89dd-9c93454fca73</Single>
+        <Single Name="sysevents_eventcallback_method_guid" Type="System.Guid">c484ea99-c5d2-5160-8298-2abcb5fa0096</Single>
+        <Single Name="sysevents_resetget_property_guid" Type="System.Guid">9e3dd491-c4ae-5134-bfc8-b49df2f979ec</Single>
+        <Array Name="parent_tasks" Type="System.Guid" />
+        <Single Name="device_app" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">1613c692-d6d5-4718-ab49-047a176ca97f</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Controller_1</Single>
+        <Single Type="string">PLC逻辑</Single>
+        <Single Type="string">Application</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
